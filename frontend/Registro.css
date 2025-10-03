@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  height: 100vh;             
+  display: flex;                
+  justify-content: center;      
+  align-items: center;          
+  background-color: #dcdcdc;    
+  font-family: Arial, sans-serif;
+}
+
+.login-container {
+    width: 400px;
+    margin: 80px auto;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    text-align: center;
+    overflow: hidden;
+    padding-bottom: 20px; 
+}
+
+
+.login-container h2 {
+    color: #056634;
+    font-size: 28px;
+    margin: 25px 0 25px;
+}
+
+.login-container hr {
+    border: 0;
+    border-top: 1px solid #056634;
+    margin: 0 20px;
+}
+
+.form {
+    padding: 20px;
+    text-align: left;
+}
+
+.form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+.form input[type="email"],
+.form input[type="password"] {
+    width: 95%;
+    padding: 8px;
+    border: 1px solid #666;
+    border-radius: 2px;
+    font-size: 14px;
+}
+
+.form input[type="checkbox"] {
+    margin-top: 10px;
+}
+
+.form small {
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #056634;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.form button:hover {
+    background-color: #044d26;
+}
+
+.footer {
+    background-color: #91bca8;
+    padding: 26px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.footer a {
+    color: #056634;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    font-size: 14px;
+    color: #056634;
+    font-weight: bold;
+}
+
+.logo img {
+  width: 120px;   
+  height: auto;   
+}
+
+.captcha-container {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.captcha-box {
+    display: inline-block;
+    background: #f1f1f1;
+    border: 1px solid #999;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    padding: 10px 20px;
+    margin-bottom: 8px;
+    user-select: none;   /* impede copiar/colar */
+    font-family: monospace;
+}
+
+.captcha-container input {
+    width: 70%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #666;
+    border-radius: 3px;
+}
